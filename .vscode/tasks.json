@@ -14,7 +14,7 @@
             "-Wextra",// Extra Compiler warnings
             "-Wsign-conversion",// Warn for implicit conversions that may change the sign of an integer value
             "-Werror",// Treat warnings as errors
-            "-std=c++14",// C++14 enabled
+            "-std=c++11",// C++11 enabled
             "-o",
             "${fileDirname}/${fileBasenameNoExtension}",
             "${file}"
